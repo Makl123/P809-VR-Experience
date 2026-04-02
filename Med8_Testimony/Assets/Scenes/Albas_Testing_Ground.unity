@@ -2594,7 +2594,7 @@ PrefabInstance:
     - target: {fileID: 7198821688898138627, guid: cde137fdb3264c94097f89ac6a5aee36, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: fc878600eb20c704da04d4e555fc764e, type: 2}
+      objectReference: {fileID: 2100000, guid: 32228db2d0a16474ab8c1a94120857e3, type: 2}
     - target: {fileID: 8656777279110415324, guid: cde137fdb3264c94097f89ac6a5aee36, type: 3}
       propertyPath: m_Name
       value: Sidewalk (1)
@@ -8328,7 +8328,7 @@ PrefabInstance:
     - target: {fileID: 7198821688898138627, guid: cde137fdb3264c94097f89ac6a5aee36, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: fc878600eb20c704da04d4e555fc764e, type: 2}
+      objectReference: {fileID: 2100000, guid: d13a4ae5ecd25c841b39bf7a674fd4d2, type: 2}
     - target: {fileID: 8656777279110415324, guid: cde137fdb3264c94097f89ac6a5aee36, type: 3}
       propertyPath: m_Name
       value: Sidewalk
@@ -13408,7 +13408,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: dc7335cc2a597714b909d3cb42545de1, type: 2}
+  - {fileID: 2100000, guid: 650ec86c67bcc904f9ec5f57d99eaa03, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
