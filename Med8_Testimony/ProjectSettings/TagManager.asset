@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 3
   tags:
   - Sidewalk
+  - Hand
   layers:
   - Default
   - TransparentFX
