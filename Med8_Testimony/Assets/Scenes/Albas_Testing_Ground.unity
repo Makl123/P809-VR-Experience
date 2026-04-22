@@ -29614,6 +29614,25 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 9d4128a5b969ff43f9d7095055443a16, type: 3}
   m_PrefabInstance: {fileID: 1463388022}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1465870235 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -1781356600409242780, guid: adfeaf2c951b87347a2b5ce5b52e6a71, type: 3}
+  m_PrefabInstance: {fileID: 1924795196}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1465870237
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1465870235}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e7647e684febaa4ab2d11a581662578, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::NpcController
+  player: {fileID: 211403374}
+  watched: 0
 --- !u!1001 &1466735971
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -39977,6 +39996,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: adfeaf2c951b87347a2b5ce5b52e6a71, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1411244433}
+    - targetCorrespondingSourceObject: {fileID: -1781356600409242780, guid: adfeaf2c951b87347a2b5ce5b52e6a71, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1465870237}
   m_SourcePrefab: {fileID: 100100000, guid: adfeaf2c951b87347a2b5ce5b52e6a71, type: 3}
 --- !u!1001 &1927924243
 PrefabInstance:
