@@ -6,6 +6,7 @@ public class Manager : MonoBehaviour
 {
     public List<NPC_Animation> npcs = new List<NPC_Animation>();
     public bool npcIsWalking;
+    public bool npcWatch;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -18,6 +19,7 @@ public class Manager : MonoBehaviour
         foreach (var npc in npcs)
         {
             npc.isWalking = npcIsWalking;
+            npc.watched = npcWatch;
         }
     }
 }
