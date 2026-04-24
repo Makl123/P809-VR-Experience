@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Sidewalk
   - Hand
+  - AngiGuy
   layers:
   - Default
   - TransparentFX

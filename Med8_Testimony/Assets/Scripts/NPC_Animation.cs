@@ -16,6 +16,7 @@ public class NPC_Animation : MonoBehaviour
     // For animating the Npcs
     public Animator animator;
     public bool isWalking;
+    public int Animation = 0;
 
     void Start()
     {
@@ -27,14 +28,14 @@ public class NPC_Animation : MonoBehaviour
 
         if (isWalking == true)
         {
-            animator.SetBool("IsWalking", true);
             MoveNpc();
         }
 
         if (isWalking == false)
         {
-            animator.SetBool("IsWalking", false);
-        }  
+        }
+
+        animator.SetInteger("Anim", Animation);
     }
 
     // LateUpdate for overriding the animations transform on the head.
