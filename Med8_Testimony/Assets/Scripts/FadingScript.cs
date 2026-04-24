@@ -6,6 +6,8 @@ public class FadingScript : MonoBehaviour
     [SerializeField] private CanvasGroup canvasGroup;
 
     [SerializeField] private float fadeDuration;
+    
+    [SerializeField] private float instantFadeSpeed;
 
     [SerializeField] private bool fadeIn = false;
     
@@ -30,6 +32,11 @@ public class FadingScript : MonoBehaviour
     public IEnumerator FadeOut()
     {
         yield return StartCoroutine(FadeCanvasGroup(canvasGroup, canvasGroup.alpha, 1,fadeDuration));
+    }
+    
+    public IEnumerator CutToBlack()
+    {
+        yield return StartCoroutine(FadeCanvasGroup(canvasGroup, canvasGroup.alpha, 1,instantFadeSpeed));
     }
 
     private IEnumerator FadeCanvasGroup(CanvasGroup cg, float start, float end, float duration)
