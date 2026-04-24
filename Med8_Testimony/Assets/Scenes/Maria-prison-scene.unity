@@ -202,7 +202,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6930746047250022099, guid: c6a1e7332a22a8143a0f39681fa4203f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 210333949}
   m_SourcePrefab: {fileID: 100100000, guid: c6a1e7332a22a8143a0f39681fa4203f, type: 3}
 --- !u!1 &76490695
 GameObject:
@@ -685,6 +688,25 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.01, y: 0.027315512, z: 0.035362832}
   m_Center: {x: 0.08378315, y: -0.10197881, z: -0.04994329}
+--- !u!1 &210333944 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6930746047250022099, guid: c6a1e7332a22a8143a0f39681fa4203f, type: 3}
+  m_PrefabInstance: {fileID: 75520124}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &210333949
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 210333944}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 909307ec2d3bc45adb7714249bc8fcc8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Prison_Animation
+  Animation: 0
+  animator: {fileID: 0}
 --- !u!64 &274585670
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1090,6 +1112,25 @@ Transform:
   - {fileID: 339568089}
   m_Father: {fileID: 1056846912}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &681451467 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6930746047250022099, guid: c6a1e7332a22a8143a0f39681fa4203f, type: 3}
+  m_PrefabInstance: {fileID: 1853587403}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &681451472
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 681451467}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 909307ec2d3bc45adb7714249bc8fcc8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Prison_Animation
+  Animation: 0
+  animator: {fileID: 0}
 --- !u!1 &790766744 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 173075937200684835, guid: 20ea49a24bacce84f92b0ee3a37ba5dd, type: 3}
@@ -1537,6 +1578,25 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -1550514412580984892, guid: 79af42f5e65f942e8b48fd4d5e8cbe12, type: 3}
+--- !u!1 &1162675946 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8129079470048175616, guid: c6a1e7332a22a8143a0f39681fa4203f, type: 3}
+  m_PrefabInstance: {fileID: 1853587403}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1162675949
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1162675946}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 909307ec2d3bc45adb7714249bc8fcc8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Prison_Animation
+  Animation: 0
+  animator: {fileID: 0}
 --- !u!1001 &1418336599
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1718,7 +1778,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6930746047250022099, guid: c6a1e7332a22a8143a0f39681fa4203f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1815671015}
   m_SourcePrefab: {fileID: 100100000, guid: c6a1e7332a22a8143a0f39681fa4203f, type: 3}
 --- !u!1001 &1570011908
 PrefabInstance:
@@ -1807,6 +1870,25 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 2080457741}
   m_SourcePrefab: {fileID: 100100000, guid: 6822e04cae58cd74ab6cda465aaa40a7, type: 3}
+--- !u!1 &1815671010 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6930746047250022099, guid: c6a1e7332a22a8143a0f39681fa4203f, type: 3}
+  m_PrefabInstance: {fileID: 1455730136}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1815671015
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1815671010}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 909307ec2d3bc45adb7714249bc8fcc8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Prison_Animation
+  Animation: 1
+  animator: {fileID: 0}
 --- !u!1001 &1853587403
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1890,7 +1972,13 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6930746047250022099, guid: c6a1e7332a22a8143a0f39681fa4203f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 681451472}
+    - targetCorrespondingSourceObject: {fileID: 8129079470048175616, guid: c6a1e7332a22a8143a0f39681fa4203f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1162675949}
   m_SourcePrefab: {fileID: 100100000, guid: c6a1e7332a22a8143a0f39681fa4203f, type: 3}
 --- !u!64 &1907020084
 MeshCollider:
