@@ -70,5 +70,25 @@ public class Manager : MonoBehaviour
                 npcs[3].isWalking = false;
             }
         }
+
+        if (events.Count > 3 && events[3].Event)
+        {
+            if (npcs.Count > 0)
+            {
+                npcs[4].isWalking = true;
+                SetNpcActive(4, true);
+            }
+        }
+    }
+
+    public void SetNpcActive(int index, bool active)
+    {
+        if (index < 0 || index >= npcs.Count) return;
+        var npc = npcs[index];
+        if (npc == null) return;
+
+        // NPC_Animation is expected to be a MonoBehaviour/component attached to the NPC GameObject.
+        // Use GameObject.SetActive to enable/disable the whole GameObject.
+        npc.gameObject.SetActive(active);
     }
 }
