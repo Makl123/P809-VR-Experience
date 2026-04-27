@@ -5,15 +5,17 @@ TagManager:
   serializedVersion: 3
   tags:
   - Sidewalk
+  - Hand
+  - AngiGuy
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Plane
   - Water
   - UI
-  - 
-  - 
+  - Player
+  - NPC
   - 
   - 
   - 
