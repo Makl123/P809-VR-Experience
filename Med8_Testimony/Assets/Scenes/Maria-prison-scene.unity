@@ -3105,6 +3105,10 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6949431895351419323, guid: 20ea49a24bacce84f92b0ee3a37ba5dd, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 6d96f9f33165d430c96aeebb7c034ffd, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6049,8 +6053,8 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -6534680358207445909, guid: 79af42f5e65f942e8b48fd4d5e8cbe12, type: 3}
-  - {fileID: -1022269594093609885, guid: 79af42f5e65f942e8b48fd4d5e8cbe12, type: 3}
+  - {fileID: 2100000, guid: 6959318392c2c414d8620f270f578512, type: 2}
+  - {fileID: 2100000, guid: 6959318392c2c414d8620f270f578512, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
