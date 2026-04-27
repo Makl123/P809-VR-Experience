@@ -27,6 +27,6 @@ public class MenuController : MonoBehaviour
     public IEnumerator StartGameCouroutine()
     {
         yield return StartCoroutine(_fadingScript.FadeOut());
-        SceneManager.LoadScene("Albas_Testing_Ground");
+        SceneManager.LoadScene("Maria-house scene");
     }
 }
