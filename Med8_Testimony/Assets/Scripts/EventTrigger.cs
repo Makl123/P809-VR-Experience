@@ -3,31 +3,42 @@ using UnityEngine;
 public class EventTrigger : MonoBehaviour
 {
     public bool Event;
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    public bool Player;
+    public bool AngiGuy;
+    public bool Walker;
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Player") || other.CompareTag("AngiGuy"))
+        if (other.CompareTag("Player") && Player == true)
         {
-            Debug.Log("In");
+            Event = true;
+        }
+
+        if(other.CompareTag("AngiGuy") && AngiGuy == true)
+        {
+            Event = true;
+        }
+
+        if (other.CompareTag("Walker") && Walker == true)
+        {
             Event = true;
         }
     }
 
     private void OnTriggerExit(Collider other)
     {
-        if (other.CompareTag("Player") || other.CompareTag("AngiGuy"))
+        if (other.CompareTag("Player") && Player == true)
         {
-            Debug.Log("In");
+            Event = false;
+        }
+
+        if (other.CompareTag("AngiGuy") && AngiGuy == true)
+        {
+            Event = false;
+        }
+
+        if (other.CompareTag("Walker") && Walker == true)
+        {
             Event = false;
         }
     }
