@@ -8,6 +8,8 @@ TagManager:
   - Hand
   - AngiGuy
   - Walker
+  - Car
+  - Tree
   layers:
   - Default
   - TransparentFX
