@@ -12,13 +12,13 @@ EditorBuildSettings:
     path: Assets/Scenes/Maria-house scene.unity
     guid: e765e7653e1b641f6a11f061fdf36c97
   - enabled: 1
-    path: Assets/Scenes/House scene..unity
+    path: Assets/Scenes/OldScenes/House scene..unity
     guid: 99c9720ab356a0642a771bea13969a05
   - enabled: 1
     path: Assets/Scenes/Albas_Testing_Ground.unity
     guid: f74cde07ad6abd2478d5c57c0f08e608
   - enabled: 1
-    path: Assets/Scenes/Michaels_Testing_Ground.unity
+    path: Assets/Scenes/OldScenes/Michaels_Testing_Ground.unity
     guid: a9a782795fc6b3f4ab6b4213a8c58870
   - enabled: 1
     path: Assets/Scenes/Maria-prison-scene.unity
