@@ -13577,6 +13577,7 @@ MonoBehaviour:
   childObjectName: Human
   defaultTexture: {fileID: 2800000, guid: 42170b21539e6f143b583f38d6c82481, type: 3}
   watchedTexture: {fileID: 2800000, guid: 8989bb2077387f541a82467645cdc9e3, type: 3}
+  audioClips: []
 --- !u!95 &315830039
 Animator:
   serializedVersion: 7
@@ -18078,6 +18079,7 @@ MonoBehaviour:
   childObjectName: Human
   defaultTexture: {fileID: 2800000, guid: 42170b21539e6f143b583f38d6c82481, type: 3}
   watchedTexture: {fileID: 2800000, guid: 8989bb2077387f541a82467645cdc9e3, type: 3}
+  audioClips: []
 --- !u!95 &418771908
 Animator:
   serializedVersion: 7
@@ -30744,6 +30746,7 @@ MonoBehaviour:
   childObjectName: Human
   defaultTexture: {fileID: 2800000, guid: 42170b21539e6f143b583f38d6c82481, type: 3}
   watchedTexture: {fileID: 2800000, guid: 8989bb2077387f541a82467645cdc9e3, type: 3}
+  audioClips: []
 --- !u!95 &720397549
 Animator:
   serializedVersion: 7
@@ -31529,6 +31532,7 @@ MonoBehaviour:
   childObjectName: Human
   defaultTexture: {fileID: 2800000, guid: 42170b21539e6f143b583f38d6c82481, type: 3}
   watchedTexture: {fileID: 2800000, guid: 8989bb2077387f541a82467645cdc9e3, type: 3}
+  audioClips: []
 --- !u!95 &747822625
 Animator:
   serializedVersion: 7
@@ -36450,6 +36454,7 @@ MonoBehaviour:
   childObjectName: Human
   defaultTexture: {fileID: 2800000, guid: 42170b21539e6f143b583f38d6c82481, type: 3}
   watchedTexture: {fileID: 2800000, guid: 8989bb2077387f541a82467645cdc9e3, type: 3}
+  audioClips: []
 --- !u!95 &858761889
 Animator:
   serializedVersion: 7
@@ -38026,6 +38031,7 @@ MonoBehaviour:
   childObjectName: Human
   defaultTexture: {fileID: 2800000, guid: 42170b21539e6f143b583f38d6c82481, type: 3}
   watchedTexture: {fileID: 2800000, guid: 8989bb2077387f541a82467645cdc9e3, type: 3}
+  audioClips: []
 --- !u!95 &896456420
 Animator:
   serializedVersion: 7
@@ -38159,6 +38165,7 @@ MonoBehaviour:
   childObjectName: Human
   defaultTexture: {fileID: 2800000, guid: 42170b21539e6f143b583f38d6c82481, type: 3}
   watchedTexture: {fileID: 2800000, guid: 8989bb2077387f541a82467645cdc9e3, type: 3}
+  audioClips: []
 --- !u!95 &897144793
 Animator:
   serializedVersion: 7
@@ -40179,6 +40186,7 @@ GameObject:
   - component: {fileID: 932167689}
   - component: {fileID: 932167688}
   - component: {fileID: 932167687}
+  - component: {fileID: 932167691}
   m_Layer: 0
   m_Name: NPC_Male_1 (4)
   m_TagString: Walker
@@ -40277,6 +40285,7 @@ MonoBehaviour:
   childObjectName: Human
   defaultTexture: {fileID: 2800000, guid: 42170b21539e6f143b583f38d6c82481, type: 3}
   watchedTexture: {fileID: 2800000, guid: 8989bb2077387f541a82467645cdc9e3, type: 3}
+  audioClips: []
 --- !u!95 &932167690
 Animator:
   serializedVersion: 7
@@ -40299,6 +40308,103 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!82 &932167691
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 932167685}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 100
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &932482048
 GameObject:
   m_ObjectHideFlags: 0
@@ -55240,6 +55346,7 @@ MonoBehaviour:
   childObjectName: Human
   defaultTexture: {fileID: 2800000, guid: 42170b21539e6f143b583f38d6c82481, type: 3}
   watchedTexture: {fileID: 2800000, guid: 8989bb2077387f541a82467645cdc9e3, type: 3}
+  audioClips: []
 --- !u!95 &1293266751
 Animator:
   serializedVersion: 7
@@ -55743,6 +55850,7 @@ MonoBehaviour:
   childObjectName: 
   defaultTexture: {fileID: 0}
   watchedTexture: {fileID: 0}
+  audioClips: []
 --- !u!95 &1299693105
 Animator:
   serializedVersion: 7
@@ -57297,6 +57405,7 @@ MonoBehaviour:
   childObjectName: Human
   defaultTexture: {fileID: 2800000, guid: 42170b21539e6f143b583f38d6c82481, type: 3}
   watchedTexture: {fileID: 2800000, guid: 8989bb2077387f541a82467645cdc9e3, type: 3}
+  audioClips: []
 --- !u!95 &1336510895
 Animator:
   serializedVersion: 7
@@ -58354,6 +58463,7 @@ MonoBehaviour:
   childObjectName: Human
   defaultTexture: {fileID: 2800000, guid: 465dcf01c3a4ec3499b441ccc6ac1763, type: 3}
   watchedTexture: {fileID: 2800000, guid: 150bbfaf7e47d3f4eb5d615d4e06e947, type: 3}
+  audioClips: []
 --- !u!95 &1376704399
 Animator:
   serializedVersion: 7
@@ -60853,6 +60963,7 @@ MonoBehaviour:
   childObjectName: Human
   defaultTexture: {fileID: 2800000, guid: 42170b21539e6f143b583f38d6c82481, type: 3}
   watchedTexture: {fileID: 2800000, guid: 8989bb2077387f541a82467645cdc9e3, type: 3}
+  audioClips: []
 --- !u!95 &1431434635
 Animator:
   serializedVersion: 7
@@ -69404,6 +69515,7 @@ MonoBehaviour:
   childObjectName: 
   defaultTexture: {fileID: 0}
   watchedTexture: {fileID: 0}
+  audioClips: []
 --- !u!95 &1613246925
 Animator:
   serializedVersion: 7
@@ -78262,6 +78374,7 @@ MonoBehaviour:
   childObjectName: Human
   defaultTexture: {fileID: 2800000, guid: 42170b21539e6f143b583f38d6c82481, type: 3}
   watchedTexture: {fileID: 2800000, guid: 8989bb2077387f541a82467645cdc9e3, type: 3}
+  audioClips: []
 --- !u!95 &1806135578
 Animator:
   serializedVersion: 7
@@ -78781,6 +78894,7 @@ MonoBehaviour:
   childObjectName: Human
   defaultTexture: {fileID: 2800000, guid: 42170b21539e6f143b583f38d6c82481, type: 3}
   watchedTexture: {fileID: 2800000, guid: 8989bb2077387f541a82467645cdc9e3, type: 3}
+  audioClips: []
 --- !u!95 &1823019753
 Animator:
   serializedVersion: 7
@@ -92087,6 +92201,7 @@ MonoBehaviour:
   childObjectName: Human
   defaultTexture: {fileID: 2800000, guid: 42170b21539e6f143b583f38d6c82481, type: 3}
   watchedTexture: {fileID: 2800000, guid: 8989bb2077387f541a82467645cdc9e3, type: 3}
+  audioClips: []
 --- !u!95 &2131071766
 Animator:
   serializedVersion: 7

@@ -24,6 +24,8 @@ public class NPC_Animation : MonoBehaviour
 
     public Texture defaultTexture;
     public Texture watchedTexture;
+    public AudioClip[] audioClips;
+    private AudioSource audioSource;
 
     // Track state so we only update texture when `watched` changes.
     private bool lastWatchedState;
@@ -31,6 +33,14 @@ public class NPC_Animation : MonoBehaviour
     void Start()
     {
         animator = GetComponent<Animator>();
+        audioSource = GetComponent<AudioSource>();
+        
+        // If no AudioSource exists, add one
+        if (audioSource == null)
+        {
+            audioSource = gameObject.AddComponent<AudioSource>();
+        }
+        
         // Ensure texture state matches initial `watched` value.
         lastWatchedState = !watched; // force UpdateTexture call on first
     }
@@ -69,6 +79,7 @@ public class NPC_Animation : MonoBehaviour
         {
             Debug.Log("In");
             watched = true;
+            PlayRandomAudioClip();
         }
     }
 
@@ -78,6 +89,16 @@ public class NPC_Animation : MonoBehaviour
         {
             Debug.Log("Out");
             watched = false;
+        }
+    }
+
+    private void PlayRandomAudioClip()
+    {
+        if (audioClips != null && audioClips.Length > 0 && audioSource != null)
+        {
+            int randomIndex = Random.Range(0, audioClips.Length);
+            audioSource.clip = audioClips[randomIndex];
+            audioSource.Play();
         }
     }
 
