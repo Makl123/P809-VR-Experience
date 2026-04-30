@@ -13577,7 +13577,18 @@ MonoBehaviour:
   childObjectName: Human
   defaultTexture: {fileID: 2800000, guid: 42170b21539e6f143b583f38d6c82481, type: 3}
   watchedTexture: {fileID: 2800000, guid: 8989bb2077387f541a82467645cdc9e3, type: 3}
-  audioClips: []
+  audioClips:
+  - {fileID: 8300000, guid: 43f447747eff047519807428b4d6afcd, type: 3}
+  - {fileID: 8300000, guid: aecc38550b9bd46f6a1ff71240d38394, type: 3}
+  - {fileID: 8300000, guid: 256d21c725770475d8c96efd14790d9e, type: 3}
+  - {fileID: 8300000, guid: bd155c87cad514a11988d0177cd41556, type: 3}
+  - {fileID: 8300000, guid: 5f30428e0510b4b85bea51abfb14aa45, type: 3}
+  - {fileID: 8300000, guid: be9f302df74824bd3b6f8b3bf2bf0af1, type: 3}
+  - {fileID: 8300000, guid: 581e96b831e7d4131969e797dd700c1e, type: 3}
+  - {fileID: 8300000, guid: cf4f39e26a9a946b89a63a1aaa5b4bd1, type: 3}
+  - {fileID: 8300000, guid: e62aebf4c9eee4de78e002239122c39b, type: 3}
+  - {fileID: 8300000, guid: e1af9b245703b44798c3f76449066c80, type: 3}
+  - {fileID: 8300000, guid: e3592532d24d94e0eb324b3f5935e00d, type: 3}
 --- !u!95 &315830039
 Animator:
   serializedVersion: 7
@@ -18079,7 +18090,18 @@ MonoBehaviour:
   childObjectName: Human
   defaultTexture: {fileID: 2800000, guid: 42170b21539e6f143b583f38d6c82481, type: 3}
   watchedTexture: {fileID: 2800000, guid: 8989bb2077387f541a82467645cdc9e3, type: 3}
-  audioClips: []
+  audioClips:
+  - {fileID: 8300000, guid: 43f447747eff047519807428b4d6afcd, type: 3}
+  - {fileID: 8300000, guid: aecc38550b9bd46f6a1ff71240d38394, type: 3}
+  - {fileID: 8300000, guid: 256d21c725770475d8c96efd14790d9e, type: 3}
+  - {fileID: 8300000, guid: bd155c87cad514a11988d0177cd41556, type: 3}
+  - {fileID: 8300000, guid: 5f30428e0510b4b85bea51abfb14aa45, type: 3}
+  - {fileID: 8300000, guid: be9f302df74824bd3b6f8b3bf2bf0af1, type: 3}
+  - {fileID: 8300000, guid: 581e96b831e7d4131969e797dd700c1e, type: 3}
+  - {fileID: 8300000, guid: cf4f39e26a9a946b89a63a1aaa5b4bd1, type: 3}
+  - {fileID: 8300000, guid: e62aebf4c9eee4de78e002239122c39b, type: 3}
+  - {fileID: 8300000, guid: e1af9b245703b44798c3f76449066c80, type: 3}
+  - {fileID: 8300000, guid: e3592532d24d94e0eb324b3f5935e00d, type: 3}
 --- !u!95 &418771908
 Animator:
   serializedVersion: 7
@@ -30746,7 +30768,18 @@ MonoBehaviour:
   childObjectName: Human
   defaultTexture: {fileID: 2800000, guid: 42170b21539e6f143b583f38d6c82481, type: 3}
   watchedTexture: {fileID: 2800000, guid: 8989bb2077387f541a82467645cdc9e3, type: 3}
-  audioClips: []
+  audioClips:
+  - {fileID: 8300000, guid: 43f447747eff047519807428b4d6afcd, type: 3}
+  - {fileID: 8300000, guid: aecc38550b9bd46f6a1ff71240d38394, type: 3}
+  - {fileID: 8300000, guid: 256d21c725770475d8c96efd14790d9e, type: 3}
+  - {fileID: 8300000, guid: bd155c87cad514a11988d0177cd41556, type: 3}
+  - {fileID: 8300000, guid: 5f30428e0510b4b85bea51abfb14aa45, type: 3}
+  - {fileID: 8300000, guid: be9f302df74824bd3b6f8b3bf2bf0af1, type: 3}
+  - {fileID: 8300000, guid: 581e96b831e7d4131969e797dd700c1e, type: 3}
+  - {fileID: 8300000, guid: cf4f39e26a9a946b89a63a1aaa5b4bd1, type: 3}
+  - {fileID: 8300000, guid: e62aebf4c9eee4de78e002239122c39b, type: 3}
+  - {fileID: 8300000, guid: e1af9b245703b44798c3f76449066c80, type: 3}
+  - {fileID: 8300000, guid: e3592532d24d94e0eb324b3f5935e00d, type: 3}
 --- !u!95 &720397549
 Animator:
   serializedVersion: 7
@@ -31532,7 +31565,18 @@ MonoBehaviour:
   childObjectName: Human
   defaultTexture: {fileID: 2800000, guid: 42170b21539e6f143b583f38d6c82481, type: 3}
   watchedTexture: {fileID: 2800000, guid: 8989bb2077387f541a82467645cdc9e3, type: 3}
-  audioClips: []
+  audioClips:
+  - {fileID: 8300000, guid: 43f447747eff047519807428b4d6afcd, type: 3}
+  - {fileID: 8300000, guid: aecc38550b9bd46f6a1ff71240d38394, type: 3}
+  - {fileID: 8300000, guid: 256d21c725770475d8c96efd14790d9e, type: 3}
+  - {fileID: 8300000, guid: bd155c87cad514a11988d0177cd41556, type: 3}
+  - {fileID: 8300000, guid: 5f30428e0510b4b85bea51abfb14aa45, type: 3}
+  - {fileID: 8300000, guid: be9f302df74824bd3b6f8b3bf2bf0af1, type: 3}
+  - {fileID: 8300000, guid: 581e96b831e7d4131969e797dd700c1e, type: 3}
+  - {fileID: 8300000, guid: cf4f39e26a9a946b89a63a1aaa5b4bd1, type: 3}
+  - {fileID: 8300000, guid: e62aebf4c9eee4de78e002239122c39b, type: 3}
+  - {fileID: 8300000, guid: e1af9b245703b44798c3f76449066c80, type: 3}
+  - {fileID: 8300000, guid: e3592532d24d94e0eb324b3f5935e00d, type: 3}
 --- !u!95 &747822625
 Animator:
   serializedVersion: 7
@@ -36454,7 +36498,18 @@ MonoBehaviour:
   childObjectName: Human
   defaultTexture: {fileID: 2800000, guid: 42170b21539e6f143b583f38d6c82481, type: 3}
   watchedTexture: {fileID: 2800000, guid: 8989bb2077387f541a82467645cdc9e3, type: 3}
-  audioClips: []
+  audioClips:
+  - {fileID: 8300000, guid: 43f447747eff047519807428b4d6afcd, type: 3}
+  - {fileID: 8300000, guid: aecc38550b9bd46f6a1ff71240d38394, type: 3}
+  - {fileID: 8300000, guid: 256d21c725770475d8c96efd14790d9e, type: 3}
+  - {fileID: 8300000, guid: bd155c87cad514a11988d0177cd41556, type: 3}
+  - {fileID: 8300000, guid: 5f30428e0510b4b85bea51abfb14aa45, type: 3}
+  - {fileID: 8300000, guid: be9f302df74824bd3b6f8b3bf2bf0af1, type: 3}
+  - {fileID: 8300000, guid: 581e96b831e7d4131969e797dd700c1e, type: 3}
+  - {fileID: 8300000, guid: cf4f39e26a9a946b89a63a1aaa5b4bd1, type: 3}
+  - {fileID: 8300000, guid: e62aebf4c9eee4de78e002239122c39b, type: 3}
+  - {fileID: 8300000, guid: e1af9b245703b44798c3f76449066c80, type: 3}
+  - {fileID: 8300000, guid: e3592532d24d94e0eb324b3f5935e00d, type: 3}
 --- !u!95 &858761889
 Animator:
   serializedVersion: 7
@@ -38031,7 +38086,18 @@ MonoBehaviour:
   childObjectName: Human
   defaultTexture: {fileID: 2800000, guid: 42170b21539e6f143b583f38d6c82481, type: 3}
   watchedTexture: {fileID: 2800000, guid: 8989bb2077387f541a82467645cdc9e3, type: 3}
-  audioClips: []
+  audioClips:
+  - {fileID: 8300000, guid: 43f447747eff047519807428b4d6afcd, type: 3}
+  - {fileID: 8300000, guid: aecc38550b9bd46f6a1ff71240d38394, type: 3}
+  - {fileID: 8300000, guid: 256d21c725770475d8c96efd14790d9e, type: 3}
+  - {fileID: 8300000, guid: bd155c87cad514a11988d0177cd41556, type: 3}
+  - {fileID: 8300000, guid: 5f30428e0510b4b85bea51abfb14aa45, type: 3}
+  - {fileID: 8300000, guid: be9f302df74824bd3b6f8b3bf2bf0af1, type: 3}
+  - {fileID: 8300000, guid: 581e96b831e7d4131969e797dd700c1e, type: 3}
+  - {fileID: 8300000, guid: cf4f39e26a9a946b89a63a1aaa5b4bd1, type: 3}
+  - {fileID: 8300000, guid: e62aebf4c9eee4de78e002239122c39b, type: 3}
+  - {fileID: 8300000, guid: e1af9b245703b44798c3f76449066c80, type: 3}
+  - {fileID: 8300000, guid: e3592532d24d94e0eb324b3f5935e00d, type: 3}
 --- !u!95 &896456420
 Animator:
   serializedVersion: 7
@@ -38165,7 +38231,18 @@ MonoBehaviour:
   childObjectName: Human
   defaultTexture: {fileID: 2800000, guid: 42170b21539e6f143b583f38d6c82481, type: 3}
   watchedTexture: {fileID: 2800000, guid: 8989bb2077387f541a82467645cdc9e3, type: 3}
-  audioClips: []
+  audioClips:
+  - {fileID: 8300000, guid: 43f447747eff047519807428b4d6afcd, type: 3}
+  - {fileID: 8300000, guid: aecc38550b9bd46f6a1ff71240d38394, type: 3}
+  - {fileID: 8300000, guid: 256d21c725770475d8c96efd14790d9e, type: 3}
+  - {fileID: 8300000, guid: bd155c87cad514a11988d0177cd41556, type: 3}
+  - {fileID: 8300000, guid: 5f30428e0510b4b85bea51abfb14aa45, type: 3}
+  - {fileID: 8300000, guid: be9f302df74824bd3b6f8b3bf2bf0af1, type: 3}
+  - {fileID: 8300000, guid: 581e96b831e7d4131969e797dd700c1e, type: 3}
+  - {fileID: 8300000, guid: cf4f39e26a9a946b89a63a1aaa5b4bd1, type: 3}
+  - {fileID: 8300000, guid: e62aebf4c9eee4de78e002239122c39b, type: 3}
+  - {fileID: 8300000, guid: e1af9b245703b44798c3f76449066c80, type: 3}
+  - {fileID: 8300000, guid: e3592532d24d94e0eb324b3f5935e00d, type: 3}
 --- !u!95 &897144793
 Animator:
   serializedVersion: 7
@@ -40285,7 +40362,18 @@ MonoBehaviour:
   childObjectName: Human
   defaultTexture: {fileID: 2800000, guid: 42170b21539e6f143b583f38d6c82481, type: 3}
   watchedTexture: {fileID: 2800000, guid: 8989bb2077387f541a82467645cdc9e3, type: 3}
-  audioClips: []
+  audioClips:
+  - {fileID: 8300000, guid: 43f447747eff047519807428b4d6afcd, type: 3}
+  - {fileID: 8300000, guid: aecc38550b9bd46f6a1ff71240d38394, type: 3}
+  - {fileID: 8300000, guid: 256d21c725770475d8c96efd14790d9e, type: 3}
+  - {fileID: 8300000, guid: bd155c87cad514a11988d0177cd41556, type: 3}
+  - {fileID: 8300000, guid: 5f30428e0510b4b85bea51abfb14aa45, type: 3}
+  - {fileID: 8300000, guid: be9f302df74824bd3b6f8b3bf2bf0af1, type: 3}
+  - {fileID: 8300000, guid: 581e96b831e7d4131969e797dd700c1e, type: 3}
+  - {fileID: 8300000, guid: cf4f39e26a9a946b89a63a1aaa5b4bd1, type: 3}
+  - {fileID: 8300000, guid: e62aebf4c9eee4de78e002239122c39b, type: 3}
+  - {fileID: 8300000, guid: e1af9b245703b44798c3f76449066c80, type: 3}
+  - {fileID: 8300000, guid: e3592532d24d94e0eb324b3f5935e00d, type: 3}
 --- !u!95 &932167690
 Animator:
   serializedVersion: 7
@@ -55346,7 +55434,18 @@ MonoBehaviour:
   childObjectName: Human
   defaultTexture: {fileID: 2800000, guid: 42170b21539e6f143b583f38d6c82481, type: 3}
   watchedTexture: {fileID: 2800000, guid: 8989bb2077387f541a82467645cdc9e3, type: 3}
-  audioClips: []
+  audioClips:
+  - {fileID: 8300000, guid: 43f447747eff047519807428b4d6afcd, type: 3}
+  - {fileID: 8300000, guid: aecc38550b9bd46f6a1ff71240d38394, type: 3}
+  - {fileID: 8300000, guid: 256d21c725770475d8c96efd14790d9e, type: 3}
+  - {fileID: 8300000, guid: bd155c87cad514a11988d0177cd41556, type: 3}
+  - {fileID: 8300000, guid: 5f30428e0510b4b85bea51abfb14aa45, type: 3}
+  - {fileID: 8300000, guid: be9f302df74824bd3b6f8b3bf2bf0af1, type: 3}
+  - {fileID: 8300000, guid: 581e96b831e7d4131969e797dd700c1e, type: 3}
+  - {fileID: 8300000, guid: cf4f39e26a9a946b89a63a1aaa5b4bd1, type: 3}
+  - {fileID: 8300000, guid: e62aebf4c9eee4de78e002239122c39b, type: 3}
+  - {fileID: 8300000, guid: e1af9b245703b44798c3f76449066c80, type: 3}
+  - {fileID: 8300000, guid: e3592532d24d94e0eb324b3f5935e00d, type: 3}
 --- !u!95 &1293266751
 Animator:
   serializedVersion: 7
@@ -55424,7 +55523,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 8300000, guid: 959ca360ff4a9ea4484249a7ddd458bf, type: 3}
+  m_Resource: {fileID: 8300000, guid: 610e7b5e8e6164c9b9e11e075873ed12, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -57405,7 +57504,18 @@ MonoBehaviour:
   childObjectName: Human
   defaultTexture: {fileID: 2800000, guid: 42170b21539e6f143b583f38d6c82481, type: 3}
   watchedTexture: {fileID: 2800000, guid: 8989bb2077387f541a82467645cdc9e3, type: 3}
-  audioClips: []
+  audioClips:
+  - {fileID: 8300000, guid: 43f447747eff047519807428b4d6afcd, type: 3}
+  - {fileID: 8300000, guid: aecc38550b9bd46f6a1ff71240d38394, type: 3}
+  - {fileID: 8300000, guid: 256d21c725770475d8c96efd14790d9e, type: 3}
+  - {fileID: 8300000, guid: bd155c87cad514a11988d0177cd41556, type: 3}
+  - {fileID: 8300000, guid: 5f30428e0510b4b85bea51abfb14aa45, type: 3}
+  - {fileID: 8300000, guid: be9f302df74824bd3b6f8b3bf2bf0af1, type: 3}
+  - {fileID: 8300000, guid: 581e96b831e7d4131969e797dd700c1e, type: 3}
+  - {fileID: 8300000, guid: cf4f39e26a9a946b89a63a1aaa5b4bd1, type: 3}
+  - {fileID: 8300000, guid: e62aebf4c9eee4de78e002239122c39b, type: 3}
+  - {fileID: 8300000, guid: e1af9b245703b44798c3f76449066c80, type: 3}
+  - {fileID: 8300000, guid: e3592532d24d94e0eb324b3f5935e00d, type: 3}
 --- !u!95 &1336510895
 Animator:
   serializedVersion: 7
@@ -58463,7 +58573,18 @@ MonoBehaviour:
   childObjectName: Human
   defaultTexture: {fileID: 2800000, guid: 465dcf01c3a4ec3499b441ccc6ac1763, type: 3}
   watchedTexture: {fileID: 2800000, guid: 150bbfaf7e47d3f4eb5d615d4e06e947, type: 3}
-  audioClips: []
+  audioClips:
+  - {fileID: 8300000, guid: 43f447747eff047519807428b4d6afcd, type: 3}
+  - {fileID: 8300000, guid: aecc38550b9bd46f6a1ff71240d38394, type: 3}
+  - {fileID: 8300000, guid: 256d21c725770475d8c96efd14790d9e, type: 3}
+  - {fileID: 8300000, guid: bd155c87cad514a11988d0177cd41556, type: 3}
+  - {fileID: 8300000, guid: 5f30428e0510b4b85bea51abfb14aa45, type: 3}
+  - {fileID: 8300000, guid: be9f302df74824bd3b6f8b3bf2bf0af1, type: 3}
+  - {fileID: 8300000, guid: 581e96b831e7d4131969e797dd700c1e, type: 3}
+  - {fileID: 8300000, guid: cf4f39e26a9a946b89a63a1aaa5b4bd1, type: 3}
+  - {fileID: 8300000, guid: e62aebf4c9eee4de78e002239122c39b, type: 3}
+  - {fileID: 8300000, guid: e1af9b245703b44798c3f76449066c80, type: 3}
+  - {fileID: 8300000, guid: e3592532d24d94e0eb324b3f5935e00d, type: 3}
 --- !u!95 &1376704399
 Animator:
   serializedVersion: 7
@@ -59153,7 +59274,7 @@ MonoBehaviour:
   instantFadeSpeed: 0.3
   fadeIn: 1
   audioSource: {fileID: 2085151650}
-  cutsceneAudio: {fileID: 8300000, guid: 67627485ccfa94e02bfd0ffb967e870f, type: 3}
+  cutsceneAudio: {fileID: 8300000, guid: cc33e2fc2785844bdb66ea5ed4673b07, type: 3}
 --- !u!225 &1399632657
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -60963,7 +61084,18 @@ MonoBehaviour:
   childObjectName: Human
   defaultTexture: {fileID: 2800000, guid: 42170b21539e6f143b583f38d6c82481, type: 3}
   watchedTexture: {fileID: 2800000, guid: 8989bb2077387f541a82467645cdc9e3, type: 3}
-  audioClips: []
+  audioClips:
+  - {fileID: 8300000, guid: 43f447747eff047519807428b4d6afcd, type: 3}
+  - {fileID: 8300000, guid: aecc38550b9bd46f6a1ff71240d38394, type: 3}
+  - {fileID: 8300000, guid: 256d21c725770475d8c96efd14790d9e, type: 3}
+  - {fileID: 8300000, guid: bd155c87cad514a11988d0177cd41556, type: 3}
+  - {fileID: 8300000, guid: 5f30428e0510b4b85bea51abfb14aa45, type: 3}
+  - {fileID: 8300000, guid: be9f302df74824bd3b6f8b3bf2bf0af1, type: 3}
+  - {fileID: 8300000, guid: 581e96b831e7d4131969e797dd700c1e, type: 3}
+  - {fileID: 8300000, guid: cf4f39e26a9a946b89a63a1aaa5b4bd1, type: 3}
+  - {fileID: 8300000, guid: e62aebf4c9eee4de78e002239122c39b, type: 3}
+  - {fileID: 8300000, guid: e1af9b245703b44798c3f76449066c80, type: 3}
+  - {fileID: 8300000, guid: e3592532d24d94e0eb324b3f5935e00d, type: 3}
 --- !u!95 &1431434635
 Animator:
   serializedVersion: 7
@@ -69327,7 +69459,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1613246920
 Transform:
   m_ObjectHideFlags: 0
@@ -69355,7 +69487,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 8300000, guid: 8010f5cd7addb48fe8296f5dce2bcb9e, type: 3}
+  m_Resource: {fileID: 8300000, guid: 610e7b5e8e6164c9b9e11e075873ed12, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -69515,7 +69647,8 @@ MonoBehaviour:
   childObjectName: 
   defaultTexture: {fileID: 0}
   watchedTexture: {fileID: 0}
-  audioClips: []
+  audioClips:
+  - {fileID: 8300000, guid: 610e7b5e8e6164c9b9e11e075873ed12, type: 3}
 --- !u!95 &1613246925
 Animator:
   serializedVersion: 7
@@ -78374,7 +78507,18 @@ MonoBehaviour:
   childObjectName: Human
   defaultTexture: {fileID: 2800000, guid: 42170b21539e6f143b583f38d6c82481, type: 3}
   watchedTexture: {fileID: 2800000, guid: 8989bb2077387f541a82467645cdc9e3, type: 3}
-  audioClips: []
+  audioClips:
+  - {fileID: 8300000, guid: 43f447747eff047519807428b4d6afcd, type: 3}
+  - {fileID: 8300000, guid: aecc38550b9bd46f6a1ff71240d38394, type: 3}
+  - {fileID: 8300000, guid: 256d21c725770475d8c96efd14790d9e, type: 3}
+  - {fileID: 8300000, guid: bd155c87cad514a11988d0177cd41556, type: 3}
+  - {fileID: 8300000, guid: 5f30428e0510b4b85bea51abfb14aa45, type: 3}
+  - {fileID: 8300000, guid: be9f302df74824bd3b6f8b3bf2bf0af1, type: 3}
+  - {fileID: 8300000, guid: 581e96b831e7d4131969e797dd700c1e, type: 3}
+  - {fileID: 8300000, guid: cf4f39e26a9a946b89a63a1aaa5b4bd1, type: 3}
+  - {fileID: 8300000, guid: e62aebf4c9eee4de78e002239122c39b, type: 3}
+  - {fileID: 8300000, guid: e1af9b245703b44798c3f76449066c80, type: 3}
+  - {fileID: 8300000, guid: e3592532d24d94e0eb324b3f5935e00d, type: 3}
 --- !u!95 &1806135578
 Animator:
   serializedVersion: 7
@@ -78894,7 +79038,18 @@ MonoBehaviour:
   childObjectName: Human
   defaultTexture: {fileID: 2800000, guid: 42170b21539e6f143b583f38d6c82481, type: 3}
   watchedTexture: {fileID: 2800000, guid: 8989bb2077387f541a82467645cdc9e3, type: 3}
-  audioClips: []
+  audioClips:
+  - {fileID: 8300000, guid: 43f447747eff047519807428b4d6afcd, type: 3}
+  - {fileID: 8300000, guid: aecc38550b9bd46f6a1ff71240d38394, type: 3}
+  - {fileID: 8300000, guid: 256d21c725770475d8c96efd14790d9e, type: 3}
+  - {fileID: 8300000, guid: bd155c87cad514a11988d0177cd41556, type: 3}
+  - {fileID: 8300000, guid: 5f30428e0510b4b85bea51abfb14aa45, type: 3}
+  - {fileID: 8300000, guid: be9f302df74824bd3b6f8b3bf2bf0af1, type: 3}
+  - {fileID: 8300000, guid: 581e96b831e7d4131969e797dd700c1e, type: 3}
+  - {fileID: 8300000, guid: cf4f39e26a9a946b89a63a1aaa5b4bd1, type: 3}
+  - {fileID: 8300000, guid: e62aebf4c9eee4de78e002239122c39b, type: 3}
+  - {fileID: 8300000, guid: e1af9b245703b44798c3f76449066c80, type: 3}
+  - {fileID: 8300000, guid: e3592532d24d94e0eb324b3f5935e00d, type: 3}
 --- !u!95 &1823019753
 Animator:
   serializedVersion: 7
@@ -90387,7 +90542,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 8300000, guid: 1511c47f828c141699feac9abdbb129c, type: 3}
+  m_Resource: {fileID: 8300000, guid: cc33e2fc2785844bdb66ea5ed4673b07, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -90517,7 +90672,7 @@ Transform:
   m_GameObject: {fileID: 2085151649}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 10.44351, y: 0.689, z: -4.3974895}
+  m_LocalPosition: {x: 13.86, y: 0.689, z: -5.46}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -92201,7 +92356,18 @@ MonoBehaviour:
   childObjectName: Human
   defaultTexture: {fileID: 2800000, guid: 42170b21539e6f143b583f38d6c82481, type: 3}
   watchedTexture: {fileID: 2800000, guid: 8989bb2077387f541a82467645cdc9e3, type: 3}
-  audioClips: []
+  audioClips:
+  - {fileID: 8300000, guid: 43f447747eff047519807428b4d6afcd, type: 3}
+  - {fileID: 8300000, guid: aecc38550b9bd46f6a1ff71240d38394, type: 3}
+  - {fileID: 8300000, guid: 256d21c725770475d8c96efd14790d9e, type: 3}
+  - {fileID: 8300000, guid: bd155c87cad514a11988d0177cd41556, type: 3}
+  - {fileID: 8300000, guid: 5f30428e0510b4b85bea51abfb14aa45, type: 3}
+  - {fileID: 8300000, guid: be9f302df74824bd3b6f8b3bf2bf0af1, type: 3}
+  - {fileID: 8300000, guid: 581e96b831e7d4131969e797dd700c1e, type: 3}
+  - {fileID: 8300000, guid: cf4f39e26a9a946b89a63a1aaa5b4bd1, type: 3}
+  - {fileID: 8300000, guid: e62aebf4c9eee4de78e002239122c39b, type: 3}
+  - {fileID: 8300000, guid: e1af9b245703b44798c3f76449066c80, type: 3}
+  - {fileID: 8300000, guid: e3592532d24d94e0eb324b3f5935e00d, type: 3}
 --- !u!95 &2131071766
 Animator:
   serializedVersion: 7
