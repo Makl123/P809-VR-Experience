@@ -8,12 +8,12 @@ public class SceneChanger : MonoBehaviour
 {
     [SerializeField] private FadingScript _fadingScript;
     [SerializeField] private string sceneName;
-    [SerializeField] private TextMeshPro goalScene;
+    //[SerializeField] private TextMeshPro goalScene;
     
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        goalScene.text =  $"GET OVER HERE TO GO TO {sceneName}";
+        //goalScene.text =  $"GET OVER HERE TO GO TO {sceneName}";
     }
     
     private void OnTriggerEnter(Collider other)
@@ -32,9 +32,21 @@ public class SceneChanger : MonoBehaviour
         StartCoroutine(StartGameCouroutine(nameOfScene));
     }
     
+    private void LoadTheCinematicScene(string nameOfScene)
+    {
+       
+        StartCoroutine(StartCinematicGameCouroutine(nameOfScene));
+    }
+    
     public IEnumerator StartGameCouroutine(string nameOfScene)
     {
         yield return StartCoroutine(_fadingScript.CutToBlack());
+        SceneManager.LoadScene(nameOfScene);
+    }
+    
+    public IEnumerator StartCinematicGameCouroutine(string nameOfScene)
+    {
+        yield return StartCoroutine(_fadingScript.CutsceneSequence());
         SceneManager.LoadScene(nameOfScene);
     }
     

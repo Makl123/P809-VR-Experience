@@ -59,6 +59,8 @@ public class Manager : MonoBehaviour
             {
                 npcs[3].Animation = 3;
                 npcs[3].isWalking = true;
+                npcs[3].watched = true;
+                PlayNpcAudio(3);
             }
         }
 
@@ -68,6 +70,7 @@ public class Manager : MonoBehaviour
             {
                 npcs[3].Animation = 4;
                 npcs[3].isWalking = false;
+                PlayNpcAudio(5);
             }
         }
 
@@ -79,6 +82,15 @@ public class Manager : MonoBehaviour
                 SetNpcActive(4, true);
             }
         }
+
+        if (events.Count > 4 && events[4].Event)
+        {
+            if (npcs.Count > 0)
+            {
+                npcs[6].isWalking = false;
+                npcs[6].Animation = 0;
+            }
+        }
     }
 
     public void SetNpcActive(int index, bool active)
@@ -87,8 +99,31 @@ public class Manager : MonoBehaviour
         var npc = npcs[index];
         if (npc == null) return;
 
-        // NPC_Animation is expected to be a MonoBehaviour/component attached to the NPC GameObject.
-        // Use GameObject.SetActive to enable/disable the whole GameObject.
         npc.gameObject.SetActive(active);
+    }
+
+    public void PlayNpcAudio(int index)
+    {
+        if (index < 0 || index >= npcs.Count) return;
+        var npc = npcs[index];
+        if (npc == null) return;
+
+        var audio = npc.GetComponent<AudioSource>();
+        if (audio == null) return;
+
+        // Ensure component is enabled and play
+        if (!audio.enabled) audio.enabled = true;
+    }
+
+    public void StopNpcAudio(int index)
+    {
+        if (index < 0 || index >= npcs.Count) return;
+        var npc = npcs[index];
+        if (npc == null) return;
+
+        var audio = npc.GetComponent<AudioSource>();
+        if (audio == null) return;
+
+        audio.Stop();
     }
 }
