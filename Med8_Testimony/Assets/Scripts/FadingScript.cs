@@ -1,5 +1,6 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class FadingScript : MonoBehaviour
 {
@@ -12,6 +13,12 @@ public class FadingScript : MonoBehaviour
     [SerializeField] private bool fadeIn = false;
     
 
+    [SerializeField] private AudioSource audioSource;
+    [SerializeField] private AudioClip cutsceneAudio;
+    //[SerializeField] private string nextSceneName;
+    
+    
+    
     private void Start()
     {
         if (fadeIn)
@@ -38,7 +45,8 @@ public class FadingScript : MonoBehaviour
     {
         yield return StartCoroutine(FadeCanvasGroup(canvasGroup, canvasGroup.alpha, 1,instantFadeSpeed));
     }
-
+    
+    
     private IEnumerator FadeCanvasGroup(CanvasGroup cg, float start, float end, float duration)
     {
         float elapsedTime = 0.0f;
@@ -51,9 +59,24 @@ public class FadingScript : MonoBehaviour
         }
         cg.alpha = end;
     }
+   
 
-    
-    
+    public IEnumerator CutsceneSequence()
+    {
+        
+        //StartCoroutine(
+            //FadeCanvasGroup(canvasGroup, canvasGroup.alpha, 1, instantFadeSpeed)
+        //);
+        canvasGroup.alpha = 1f;
+
+       
+        audioSource.clip = cutsceneAudio;
+        audioSource.Play();
+
+       
+        yield return new WaitForSeconds(cutsceneAudio.length);
+        
+    }
 
     // Update is called once per frame
     void Update()

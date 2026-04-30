@@ -638,7 +638,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SceneChanger
   _fadingScript: {fileID: 1676925121}
   sceneName: Albas_Testing_Ground
-  goalScene: {fileID: 352878744}
 --- !u!65 &47135064
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2894,7 +2893,7 @@ Transform:
   m_GameObject: {fileID: 218938184}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 2.62, y: 0, z: 0.74}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -17509,6 +17508,8 @@ MonoBehaviour:
   fadeDuration: 3
   instantFadeSpeed: 0.2
   fadeIn: 1
+  audioSource: {fileID: 0}
+  cutsceneAudio: {fileID: 0}
 --- !u!225 &1676925122
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -18033,7 +18034,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SceneChanger
   _fadingScript: {fileID: 1676925121}
   sceneName: Michaels_Testing_Ground
-  goalScene: {fileID: 378562631}
 --- !u!65 &1742952047
 BoxCollider:
   m_ObjectHideFlags: 0
