@@ -54483,11 +54483,11 @@ PrefabInstance:
     - target: {fileID: 734201613253519168, guid: 7c8c3b3f48034ed46b4405225144eb12, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: c8a5b19f29afb3549a246693b0bf30b2, type: 2}
+      objectReference: {fileID: 2100000, guid: 34341cdfc4c19462a94e66ce4b601c83, type: 2}
     - target: {fileID: 734201613253519168, guid: 7c8c3b3f48034ed46b4405225144eb12, type: 3}
       propertyPath: 'm_Materials.Array.data[1]'
       value: 
-      objectReference: {fileID: 2100000, guid: c8a5b19f29afb3549a246693b0bf30b2, type: 2}
+      objectReference: {fileID: 2100000, guid: 34341cdfc4c19462a94e66ce4b601c83, type: 2}
     - target: {fileID: 919132149155446097, guid: 7c8c3b3f48034ed46b4405225144eb12, type: 3}
       propertyPath: m_Name
       value: Building2 Tehrain (2)
