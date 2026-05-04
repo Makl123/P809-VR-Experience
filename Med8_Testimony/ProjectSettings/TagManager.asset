@@ -11,7 +11,10 @@ TagManager:
   - Car
   - Tree
   - CaseA
-  - CaseB
+  - CaseA1
+  - CaseA2
+  - CaseB1
+  - CaseB2
   layers:
   - Default
   - TransparentFX
