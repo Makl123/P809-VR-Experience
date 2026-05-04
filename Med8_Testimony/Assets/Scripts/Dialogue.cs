@@ -11,6 +11,8 @@ public class Dialogue : MonoBehaviour
     public TextMeshProUGUI dialogueText;
     public string[] dialogueLines;
     public float textSpeed;
+    public NPCTriggerDialogue npcTrigger;
+    public Canvas dialogueCanvas;
 
     private int index;
     private InputDevice controller;
@@ -41,6 +43,12 @@ public class Dialogue : MonoBehaviour
             return;
         }
 
+        if (!gameObject.activeSelf && npcTrigger != null && TryGetXRButtonDown(CommonUsages.primaryButton))
+            {
+                npcTrigger.TryStartDialogue();
+                return;
+            }
+
         if (TryGetXRButtonDown(CommonUsages.primaryButton))
         {
             if (dialogueText.text == dialogueLines[index])
@@ -66,7 +74,8 @@ public class Dialogue : MonoBehaviour
     {
         index = 0;
         dialogueText.text = string.Empty;
-        gameObject.SetActive(true);
+        //gameObject.SetActive(true);
+        dialogueCanvas.gameObject.SetActive(true);
         StartCoroutine(TypeLine());
     }
 
@@ -89,7 +98,8 @@ public class Dialogue : MonoBehaviour
         }
         else
         {
-            gameObject.SetActive(false);
+            //gameObject.SetActive(false);
+            dialogueCanvas.gameObject.SetActive(false);
         }
     }
 }
