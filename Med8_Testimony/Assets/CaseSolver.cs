@@ -42,28 +42,19 @@ public class CaseSolver : MonoBehaviour
                 break;
         }
 
+        void Update()
+        {   
+            if (newlyAdded)
+            {
+                Debug.Log($"Case {caseId}: placed tag '{tag}' -> {(correct ? "Correct" : "Incorrect")}");
+                if (correct && YouDidIt != null) YouDidIt.Play();
+            }
+        } 
         // Provide immediate feedback
-        if (newlyAdded)
-        {
-            Debug.Log($"Case {caseId}: placed tag '{tag}' -> {(correct ? "Correct" : "Incorrect")}");
-            if (correct && YouDidIt != null) YouDidIt.Play();
-        }
-        else
-        {
-            Debug.Log($"Case {caseId}: tag '{tag}' already placed (ignored).");
-        }
+        Update();
 
-        // Auto-evaluate when the number of placed tags equals the expected total
-        int placedTotal = foundA.Count + foundB.Count + foundC.Count;
-        int expectedTotal = (CaseA?.Length ?? 0) + (CaseB?.Length ?? 0) + (CaseC?.Length ?? 0);
-        if (expectedTotal > 0 && placedTotal >= expectedTotal)
-        {
-            Evaluate();
+        // NOTE: auto-evaluation removed. Evaluate() will be called externally as requested.
         }
-    }
-
-    // Helper used by existing raycast-based code if desired.
-    // Returns true if the raycast's collider tag was handled by any case.
     public bool CheckTag(RaycastHit hit, CaseId caseId)
     {
         if (hit.collider == null) return false;
