@@ -15,6 +15,7 @@ TagManager:
   - CaseA2
   - CaseB1
   - CaseB2
+  - Hint
   layers:
   - Default
   - TransparentFX
