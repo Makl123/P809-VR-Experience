@@ -18,6 +18,7 @@ TagManager:
   - Hint
   - LeftHand
   - RightHand
+  - CaseC
   layers:
   - Default
   - TransparentFX
