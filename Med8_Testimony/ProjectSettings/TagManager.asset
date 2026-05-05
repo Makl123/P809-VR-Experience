@@ -10,6 +10,12 @@ TagManager:
   - Walker
   - Car
   - Tree
+  - CaseA
+  - CaseA1
+  - CaseA2
+  - CaseB1
+  - CaseB2
+  - Hint
   layers:
   - Default
   - TransparentFX
