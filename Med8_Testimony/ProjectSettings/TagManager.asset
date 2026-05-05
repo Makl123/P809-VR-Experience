@@ -16,6 +16,8 @@ TagManager:
   - CaseB1
   - CaseB2
   - Hint
+  - LeftHand
+  - RightHand
   layers:
   - Default
   - TransparentFX

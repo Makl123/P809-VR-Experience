@@ -17,8 +17,10 @@ public class CaseSolver : MonoBehaviour
     readonly HashSet<string> foundB = new HashSet<string>();
     readonly HashSet<string> foundC = new HashSet<string>();
 
-    // Public API for trigger forwarders to call.
-    // caseId: which case the tag was placed into (A, B or C)
+    // Last evaluated score for external queries
+    int lastScore;
+    public int LastScore => lastScore;
+
     public void RegisterTagForCase(string tag, CaseId caseId)
     {
         if (string.IsNullOrEmpty(tag)) return;
@@ -50,11 +52,10 @@ public class CaseSolver : MonoBehaviour
                 if (correct && YouDidIt != null) YouDidIt.Play();
             }
         } 
-        // Provide immediate feedback
-        Update();
 
-        // NOTE: auto-evaluation removed. Evaluate() will be called externally as requested.
-        }
+        Update();
+    }
+
     public bool CheckTag(RaycastHit hit, CaseId caseId)
     {
         if (hit.collider == null) return false;
@@ -72,7 +73,6 @@ public class CaseSolver : MonoBehaviour
         return false;
     }
 
-    // Evaluate correctness across all placed tags and show result
     public void Evaluate()
     {
         int correct = 0;
@@ -95,6 +95,9 @@ public class CaseSolver : MonoBehaviour
             if (Unsolved != null) Unsolved.SetActive(true);
             Debug.Log("Some tags are incorrect. Keep trying.");
         }
+
+        // Preserve last score
+        lastScore = correct;
     }
 
     int CountCorrect(HashSet<string> found, string[] expected)
