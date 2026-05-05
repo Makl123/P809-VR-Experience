@@ -74,7 +74,7 @@ public class Dialogue : MonoBehaviour
     {
         index = 0;
         dialogueText.text = string.Empty;
-        //gameObject.SetActive(true);
+        gameObject.SetActive(true);
         dialogueCanvas.gameObject.SetActive(true);
         StartCoroutine(TypeLine());
     }
@@ -98,7 +98,7 @@ public class Dialogue : MonoBehaviour
         }
         else
         {
-            //gameObject.SetActive(false);
+            gameObject.SetActive(false);
             dialogueCanvas.gameObject.SetActive(false);
         }
     }
