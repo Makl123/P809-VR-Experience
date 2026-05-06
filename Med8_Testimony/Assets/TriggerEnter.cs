@@ -2,30 +2,20 @@ using UnityEngine;
 
 public class TriggerEnter : MonoBehaviour
 {
+    public GameObject player;
+    public GameObject endPoint;
 
     public CaseSolver caseSolver;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
+    public EndGameResults endGameResults;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-
-
-
-    } 
     public void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.CompareTag("LeftHand"))
         {
             caseSolver.Evaluate();
+            player.transform.position = endPoint.transform.position;
+            endGameResults.ShowResults();
         }
 
     }
-
-
 }

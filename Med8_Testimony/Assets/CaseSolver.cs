@@ -12,6 +12,15 @@ public class CaseSolver : MonoBehaviour
     [SerializeField] GameObject Unsolved;
     [SerializeField] GameObject Solved;
 
+    // References to CaseFileText components (assign the GameObjects that hold the CaseFileText script)
+    [SerializeField] CaseFileText CaseFileA;
+    [SerializeField] CaseFileText CaseFileB;
+    [SerializeField] CaseFileText CaseFileC;
+
+    // Saved case file strings for external reference (populated by Evaluate or SetCaseFileText)
+    string[] caseFileTexts;
+    public string[] CaseFileTexts => caseFileTexts;
+
     // Track placed tags per case (prevents double-counting same tag in a case)
     readonly HashSet<string> foundA = new HashSet<string>();
     readonly HashSet<string> foundB = new HashSet<string>();
@@ -98,6 +107,20 @@ public class CaseSolver : MonoBehaviour
 
         // Preserve last score
         lastScore = correct;
+
+        // Populate the caseFileTexts array so other scripts can read the saved strings.
+        if (caseFileTexts == null) caseFileTexts = new string[3];
+        caseFileTexts[(int)CaseId.A] = CaseFileA?.caseFileText ?? caseFileTexts[(int)CaseId.A] ?? string.Empty;
+        caseFileTexts[(int)CaseId.B] = CaseFileB?.caseFileText ?? caseFileTexts[(int)CaseId.B] ?? string.Empty;
+        caseFileTexts[(int)CaseId.C] = CaseFileC?.caseFileText ?? caseFileTexts[(int)CaseId.C] ?? string.Empty;
+    }
+
+    // New: allow external registration of the case file string for a case
+    public void SetCaseFileText(CaseId caseId, string text)
+    {
+        if (caseFileTexts == null) caseFileTexts = new string[3];
+        caseFileTexts[(int)caseId] = text ?? string.Empty;
+        Debug.Log($"CaseSolver: SetCaseFileText Case {caseId} -> '{caseFileTexts[(int)caseId]}'");
     }
 
     int CountCorrect(HashSet<string> found, string[] expected)
