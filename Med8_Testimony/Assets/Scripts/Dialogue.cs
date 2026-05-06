@@ -86,6 +86,7 @@ public class Dialogue : MonoBehaviour
 
     public void StartDialogue()
     {
+        StopAllCoroutines(); 
         index = 0;
         dialogueText.text = string.Empty;
         gameObject.SetActive(true);
@@ -95,6 +96,7 @@ public class Dialogue : MonoBehaviour
 
     IEnumerator TypeLine()
     {
+        dialogueText.text = string.Empty; 
         foreach (char c in dialogueLines[index].ToCharArray())
         {
             dialogueText.text += c;
