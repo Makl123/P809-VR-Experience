@@ -11,6 +11,10 @@ public class CaseSolver : MonoBehaviour
     [SerializeField] AudioSource YouDidIt;
     [SerializeField] GameObject Unsolved;
     [SerializeField] GameObject Solved;
+    [SerializeField] private GameObject button;
+    
+    
+    
 
     // References to CaseFileText components (assign the GameObjects that hold the CaseFileText script)
     [SerializeField] CaseFileText CaseFileA;
@@ -59,6 +63,7 @@ public class CaseSolver : MonoBehaviour
             {
                 Debug.Log($"Case {caseId}: placed tag '{tag}' -> {(correct ? "Correct" : "Incorrect")}");
                 if (correct && YouDidIt != null) YouDidIt.Play();
+                else if (!correct && Unsolved != null) YouDidIt.Play();
             }
         } 
 

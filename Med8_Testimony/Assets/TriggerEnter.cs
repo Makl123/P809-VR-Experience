@@ -4,6 +4,8 @@ public class TriggerEnter : MonoBehaviour
 {
     public GameObject player;
     public GameObject endPoint;
+    [SerializeField] private AudioSource guardEndSound;
+    
 
     public CaseSolver caseSolver;
     public EndGameResults endGameResults;
@@ -15,6 +17,7 @@ public class TriggerEnter : MonoBehaviour
             caseSolver.Evaluate();
             player.transform.position = endPoint.transform.position;
             endGameResults.ShowResults();
+            guardEndSound.Play();
         }
 
     }
