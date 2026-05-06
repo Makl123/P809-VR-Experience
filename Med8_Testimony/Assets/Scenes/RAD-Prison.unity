@@ -16667,7 +16667,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eedb373cd96bc2e4886224e3d6f3de2e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CaseFileText
-  caseFileText: 8 years for violation of not covering their head in public
+  caseFileText: 8 years in prison
 --- !u!1 &1674531824
 GameObject:
   m_ObjectHideFlags: 0
@@ -16905,7 +16905,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eedb373cd96bc2e4886224e3d6f3de2e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CaseFileText
-  caseFileText: 10 Years in prison for "promoting nudity"
+  caseFileText: 10 years in prison
 --- !u!1001 &1723801143
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17334,7 +17334,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eedb373cd96bc2e4886224e3d6f3de2e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CaseFileText
-  caseFileText: '$970 fine for prostitution '
+  caseFileText: 12 years in prison
 --- !u!1 &1734506574
 GameObject:
   m_ObjectHideFlags: 0
