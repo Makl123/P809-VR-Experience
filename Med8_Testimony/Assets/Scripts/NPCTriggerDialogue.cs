@@ -1,17 +1,26 @@
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class NPCTriggerDialogue : MonoBehaviour
 {
     public Dialogue dialogueSystem;
+    [SerializeField] private InputActionReference primaryButtonAction;
 
     private bool playerInRange;
     private bool hasTriggered;
 
-    // Update is called once per frame
-    void Update()
+    void OnEnable()
     {
-        
+        primaryButtonAction.action.performed += OnPrimaryButtonPressed;
+        primaryButtonAction.action.Enable();
     }
+
+    void OnDisable()
+    {
+        primaryButtonAction.action.performed -= OnPrimaryButtonPressed;
+        primaryButtonAction.action.Disable();
+    }
+
 
     void OnTriggerEnter(Collider other)
     {
@@ -19,6 +28,15 @@ public class NPCTriggerDialogue : MonoBehaviour
         {
             playerInRange = true;
             hasTriggered = false;
+        }
+    }
+
+    void OnTriggerStay(Collider other)
+    {
+        if (playerInRange && !hasTriggered)
+        {
+            hasTriggered = true;
+            dialogueSystem.StartDialogue();
         }
     }
 
@@ -31,12 +49,11 @@ public class NPCTriggerDialogue : MonoBehaviour
         }
     }
 
-    public void TryStartDialogue()
+    private void OnPrimaryButtonPressed(InputAction.CallbackContext context)
     {
-        if (playerInRange && !hasTriggered)
+        if (playerInRange)
         {
-            hasTriggered = true;
-            dialogueSystem.StartDialogue();
+            dialogueSystem.DialogueInput();
         }
     }
 }

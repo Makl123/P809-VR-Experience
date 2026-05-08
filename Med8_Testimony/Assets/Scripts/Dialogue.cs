@@ -1,6 +1,7 @@
 using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.InputSystem;
 using TMPro;
 using UnityEditor;
 using UnityEngine.XR;
@@ -15,16 +16,16 @@ public class Dialogue : MonoBehaviour
     public Canvas dialogueCanvas;
 
     private int index;
-    private InputDevice controller;
+    //private InputDevice controller;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         dialogueText.text = string.Empty;
-        InitializeController();
+        //InitializeController();
     }
 
-    void InitializeController()
+    /*void InitializeController()
     {
         var desiredCharacteristics = InputDeviceCharacteristics.Left | InputDeviceCharacteristics.Controller | InputDeviceCharacteristics.HeldInHand;
         var devices = new List<InputDevice>();
@@ -32,24 +33,24 @@ public class Dialogue : MonoBehaviour
 
         if (devices.Count > 0)
             controller = devices[0];
-    }
+    }*/
 
     // Update is called once per frame
     void Update()
     {
-        if (!controller.isValid)
+        /*if (!controller.isValid)
         {
             InitializeController();
             return;
-        }
+        }*/
 
-        if (!gameObject.activeSelf && npcTrigger != null && TryGetXRButtonDown(CommonUsages.primaryButton))
+        /*if (!gameObject.activeSelf && npcTrigger != null && TryGetXRButtonDown(CommonUsages.primaryButton))
             {
                 npcTrigger.TryStartDialogue();
                 return;
-            }
+            }*/
 
-        if (TryGetXRButtonDown(CommonUsages.primaryButton))
+        /*if (TryGetXRButtonDown(CommonUsages.primaryButton))
         {
             if (dialogueText.text == dialogueLines[index])
             {
@@ -60,18 +61,32 @@ public class Dialogue : MonoBehaviour
                 StopAllCoroutines();
                 dialogueText.text = dialogueLines[index];
             }
+        }*/
+    }
+
+    public void DialogueInput()
+    {
+        if (dialogueText.text == dialogueLines[index])
+        {
+            NextLine();
+        }
+        else
+        {
+            StopAllCoroutines();
+            dialogueText.text = dialogueLines[index];
         }
     }
 
-    bool TryGetXRButtonDown(InputFeatureUsage<bool> button)
+    /*bool TryGetXRButtonDown(InputFeatureUsage<bool> button)
     {
         if (controller.TryGetFeatureValue(button, out bool pressed) && pressed)
             return true;
         return false;
-    }
+    }*/
 
     public void StartDialogue()
     {
+        StopAllCoroutines(); 
         index = 0;
         dialogueText.text = string.Empty;
         gameObject.SetActive(true);
@@ -81,6 +96,7 @@ public class Dialogue : MonoBehaviour
 
     IEnumerator TypeLine()
     {
+        dialogueText.text = string.Empty; 
         foreach (char c in dialogueLines[index].ToCharArray())
         {
             dialogueText.text += c;
