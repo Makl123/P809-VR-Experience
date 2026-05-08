@@ -113,6 +113,8 @@ public class Manager : MonoBehaviour
 
         // Ensure component is enabled and play
         if (!audio.enabled) audio.enabled = true;
+        // LSLMarkerSender.Instance.SendMarker($"Playing audio for NPC {index}");
+        // for later    
     }
 
     public void StopNpcAudio(int index)
