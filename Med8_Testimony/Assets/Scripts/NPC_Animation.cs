@@ -25,7 +25,12 @@ public class NPC_Animation : MonoBehaviour
     public Texture defaultTexture;
     public Texture watchedTexture;
     public AudioClip[] audioClips;
-    private AudioSource audioSource;
+    [SerializeField] private AudioSource audioSource;
+    
+    //Randomizes the sounds
+    private int[] shuffledIndices;
+    private int currentShuffleIndex = 0;
+    private int lastPlayedIndex = -1;
 
     // Track state so we only update texture when `watched` changes.
     private bool lastWatchedState;
@@ -91,15 +96,79 @@ public class NPC_Animation : MonoBehaviour
             watched = false;
         }
     }
+    private void InitializeShuffleBag()
+    {
+        if (audioClips == null || audioClips.Length == 0)
+            return;
 
+        shuffledIndices = new int[audioClips.Length];
+
+        for (int i = 0; i < audioClips.Length; i++)
+        {
+            shuffledIndices[i] = i;
+        }
+
+        ShuffleIndices();
+
+        currentShuffleIndex = 0;
+    }
+
+    private void ShuffleIndices()
+    {
+        
+        for (int i = shuffledIndices.Length - 1; i > 0; i--)
+        {
+            int j = Random.Range(0, i + 1);
+
+            (shuffledIndices[i], shuffledIndices[j]) = (shuffledIndices[j], shuffledIndices[i]);
+        }
+
+       
+        if (shuffledIndices.Length > 1 &&
+            lastPlayedIndex != -1 &&
+            shuffledIndices[0] == lastPlayedIndex)
+        {
+            (shuffledIndices[0], shuffledIndices[1]) = (shuffledIndices[1], shuffledIndices[0]);
+        }
+    }
+    
     private void PlayRandomAudioClip()
     {
-        if (audioClips != null && audioClips.Length > 0 && audioSource != null)
+        if (audioClips == null || audioClips.Length == 0 || audioSource == null)
+            return;
+
+        
+        if (audioClips.Length == 1)
         {
-            int randomIndex = Random.Range(0, audioClips.Length);
-            audioSource.clip = audioClips[randomIndex];
+            audioSource.clip = audioClips[0];
             audioSource.Play();
+            lastPlayedIndex = 0;
+            return;
         }
+
+        
+        if (shuffledIndices == null || shuffledIndices.Length != audioClips.Length)
+        {
+            InitializeShuffleBag();
+        }
+
+       
+        if (currentShuffleIndex >= shuffledIndices.Length)
+        {
+            ShuffleIndices();
+            currentShuffleIndex = 0;
+        }
+
+      
+        int clipIndex = shuffledIndices[currentShuffleIndex];
+        currentShuffleIndex++;
+
+        
+        audioSource.clip = audioClips[clipIndex];
+        audioSource.Play();
+
+      
+        lastPlayedIndex = clipIndex;
     }
 
     void LookAtPlayer()
