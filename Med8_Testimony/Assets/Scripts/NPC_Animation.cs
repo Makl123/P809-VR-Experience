@@ -5,6 +5,7 @@ public class NPC_Animation : MonoBehaviour
     // Variables for looking at the player
     public GameObject player;
     public bool watched;
+    public bool disableLookAtMode = false;
     public Transform headToRotate;
     public float minY = -60f;
     public float maxY = 60f;
@@ -173,13 +174,18 @@ public class NPC_Animation : MonoBehaviour
 
     void LookAtPlayer()
     {
-        if (watched == true)
+        
+        if (disableLookAtMode)
+            return;
+
+        if (watched && headToRotate != null && player != null)
         {
             headToRotate.LookAt(player.transform);
 
             Vector3 e = headToRotate.localEulerAngles;
 
-            if (e.y > 180) e.y -= 360;
+            if (e.y > 180)
+                e.y -= 360;
 
             e.y = Mathf.Clamp(e.y, minY, maxY);
 

@@ -18,7 +18,11 @@ public class SceneChanger : MonoBehaviour
     
     private void OnTriggerEnter(Collider other)
     {
-        LoadTheScene(sceneName);
+        if (other.CompareTag("Player"))
+        {
+            LoadTheScene(sceneName);
+        }
+        
     }
 
     private void LoadScene(string nameOfScene)
