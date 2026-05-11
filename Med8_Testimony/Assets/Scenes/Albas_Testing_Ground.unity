@@ -8906,6 +8906,87 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 23b8fe280e58ecb45a65ecea952484fb, type: 3}
   m_PrefabInstance: {fileID: 220454393}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &220931868
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4468899421236324192, guid: fc700ff4f93c7e547b4808afff2c8c37, type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7237749247431121880, guid: fc700ff4f93c7e547b4808afff2c8c37, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.36
+      objectReference: {fileID: 0}
+    - target: {fileID: 7237749247431121880, guid: fc700ff4f93c7e547b4808afff2c8c37, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.36
+      objectReference: {fileID: 0}
+    - target: {fileID: 7237749247431121880, guid: fc700ff4f93c7e547b4808afff2c8c37, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.36
+      objectReference: {fileID: 0}
+    - target: {fileID: 7237749247431121880, guid: fc700ff4f93c7e547b4808afff2c8c37, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -36.72
+      objectReference: {fileID: 0}
+    - target: {fileID: 7237749247431121880, guid: fc700ff4f93c7e547b4808afff2c8c37, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.006
+      objectReference: {fileID: 0}
+    - target: {fileID: 7237749247431121880, guid: fc700ff4f93c7e547b4808afff2c8c37, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -8.11
+      objectReference: {fileID: 0}
+    - target: {fileID: 7237749247431121880, guid: fc700ff4f93c7e547b4808afff2c8c37, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7237749247431121880, guid: fc700ff4f93c7e547b4808afff2c8c37, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7237749247431121880, guid: fc700ff4f93c7e547b4808afff2c8c37, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7237749247431121880, guid: fc700ff4f93c7e547b4808afff2c8c37, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7237749247431121880, guid: fc700ff4f93c7e547b4808afff2c8c37, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7237749247431121880, guid: fc700ff4f93c7e547b4808afff2c8c37, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 7237749247431121880, guid: fc700ff4f93c7e547b4808afff2c8c37, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7237749247431121880, guid: fc700ff4f93c7e547b4808afff2c8c37, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7436658388886914204, guid: fc700ff4f93c7e547b4808afff2c8c37, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 285040059}
+    - target: {fileID: 8014848484660986210, guid: fc700ff4f93c7e547b4808afff2c8c37, type: 3}
+      propertyPath: m_Name
+      value: FemaleTest (3)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fc700ff4f93c7e547b4808afff2c8c37, type: 3}
 --- !u!1001 &221199794
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13566,6 +13647,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::NPC_Animation
   player: {fileID: 285040059}
   watched: 0
+  disableLookAtMode: 0
   headToRotate: {fileID: 1902436011}
   minY: -90
   maxY: 90
@@ -15037,6 +15119,87 @@ SkinnedMeshRenderer:
     m_Center: {x: -0.00003361702, y: -0.5375844, z: 0.11029236}
     m_Extent: {x: 2.3898866, y: 2.4338684, z: 0.42122483}
   m_DirtyAABB: 0
+--- !u!1001 &353022915
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4468899421236324192, guid: fc700ff4f93c7e547b4808afff2c8c37, type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7237749247431121880, guid: fc700ff4f93c7e547b4808afff2c8c37, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.36
+      objectReference: {fileID: 0}
+    - target: {fileID: 7237749247431121880, guid: fc700ff4f93c7e547b4808afff2c8c37, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.36
+      objectReference: {fileID: 0}
+    - target: {fileID: 7237749247431121880, guid: fc700ff4f93c7e547b4808afff2c8c37, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.36
+      objectReference: {fileID: 0}
+    - target: {fileID: 7237749247431121880, guid: fc700ff4f93c7e547b4808afff2c8c37, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -20.94
+      objectReference: {fileID: 0}
+    - target: {fileID: 7237749247431121880, guid: fc700ff4f93c7e547b4808afff2c8c37, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.006
+      objectReference: {fileID: 0}
+    - target: {fileID: 7237749247431121880, guid: fc700ff4f93c7e547b4808afff2c8c37, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -7.29
+      objectReference: {fileID: 0}
+    - target: {fileID: 7237749247431121880, guid: fc700ff4f93c7e547b4808afff2c8c37, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.12784366
+      objectReference: {fileID: 0}
+    - target: {fileID: 7237749247431121880, guid: fc700ff4f93c7e547b4808afff2c8c37, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7237749247431121880, guid: fc700ff4f93c7e547b4808afff2c8c37, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.9917944
+      objectReference: {fileID: 0}
+    - target: {fileID: 7237749247431121880, guid: fc700ff4f93c7e547b4808afff2c8c37, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7237749247431121880, guid: fc700ff4f93c7e547b4808afff2c8c37, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7237749247431121880, guid: fc700ff4f93c7e547b4808afff2c8c37, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 194.69
+      objectReference: {fileID: 0}
+    - target: {fileID: 7237749247431121880, guid: fc700ff4f93c7e547b4808afff2c8c37, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7237749247431121880, guid: fc700ff4f93c7e547b4808afff2c8c37, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7436658388886914204, guid: fc700ff4f93c7e547b4808afff2c8c37, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 285040059}
+    - target: {fileID: 8014848484660986210, guid: fc700ff4f93c7e547b4808afff2c8c37, type: 3}
+      propertyPath: m_Name
+      value: FemaleTest (2)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fc700ff4f93c7e547b4808afff2c8c37, type: 3}
 --- !u!1001 &354334991
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18177,6 +18340,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::NPC_Animation
   player: {fileID: 285040059}
   watched: 0
+  disableLookAtMode: 0
   headToRotate: {fileID: 1954979099}
   minY: -90
   maxY: 90
@@ -30953,6 +31117,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::NPC_Animation
   player: {fileID: 285040059}
   watched: 0
+  disableLookAtMode: 0
   headToRotate: {fileID: 1511572687}
   minY: -90
   maxY: 90
@@ -31848,6 +32013,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::NPC_Animation
   player: {fileID: 285040059}
   watched: 0
+  disableLookAtMode: 0
   headToRotate: {fileID: 237451074}
   minY: -90
   maxY: 90
@@ -36879,6 +37045,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::NPC_Animation
   player: {fileID: 285040059}
   watched: 0
+  disableLookAtMode: 0
   headToRotate: {fileID: 243558679}
   minY: -90
   maxY: 90
@@ -38565,6 +38732,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::NPC_Animation
   player: {fileID: 285040059}
   watched: 0
+  disableLookAtMode: 0
   headToRotate: {fileID: 92287399}
   minY: -90
   maxY: 90
@@ -38808,6 +38976,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::NPC_Animation
   player: {fileID: 285040059}
   watched: 0
+  disableLookAtMode: 0
   headToRotate: {fileID: 588453272}
   minY: -90
   maxY: 90
@@ -41036,6 +41205,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::NPC_Animation
   player: {fileID: 285040059}
   watched: 0
+  disableLookAtMode: 0
   headToRotate: {fileID: 1300477030}
   minY: -90
   maxY: 90
@@ -56108,6 +56278,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::NPC_Animation
   player: {fileID: 285040059}
   watched: 0
+  disableLookAtMode: 0
   headToRotate: {fileID: 994922936}
   minY: -90
   maxY: 90
@@ -56623,6 +56794,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::NPC_Animation
   player: {fileID: 0}
   watched: 0
+  disableLookAtMode: 0
   headToRotate: {fileID: 0}
   minY: -60
   maxY: 60
@@ -58180,6 +58352,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::NPC_Animation
   player: {fileID: 285040059}
   watched: 0
+  disableLookAtMode: 0
   headToRotate: {fileID: 338321587}
   minY: -90
   maxY: 90
@@ -59347,6 +59520,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::NPC_Animation
   player: {fileID: 285040059}
   watched: 0
+  disableLookAtMode: 0
   headToRotate: {fileID: 2121232428}
   minY: -60
   maxY: 60
@@ -61956,6 +62130,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::NPC_Animation
   player: {fileID: 285040059}
   watched: 0
+  disableLookAtMode: 0
   headToRotate: {fileID: 2069844061}
   minY: -90
   maxY: 90
@@ -70616,6 +70791,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::NPC_Animation
   player: {fileID: 285040059}
   watched: 0
+  disableLookAtMode: 0
   headToRotate: {fileID: 1496118704}
   minY: -90
   maxY: 90
@@ -79478,6 +79654,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::NPC_Animation
   player: {fileID: 285040059}
   watched: 0
+  disableLookAtMode: 0
   headToRotate: {fileID: 1430024929}
   minY: -60
   maxY: 60
@@ -80107,6 +80284,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::NPC_Animation
   player: {fileID: 285040059}
   watched: 0
+  disableLookAtMode: 0
   headToRotate: {fileID: 1794437776}
   minY: -90
   maxY: 90
@@ -93581,6 +93759,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::NPC_Animation
   player: {fileID: 285040059}
   watched: 0
+  disableLookAtMode: 0
   headToRotate: {fileID: 438595384}
   minY: -90
   maxY: 90
@@ -98165,4 +98344,6 @@ SceneRoots:
   - {fileID: 369065298}
   - {fileID: 349300808}
   - {fileID: 8483414578096231398}
+  - {fileID: 353022915}
+  - {fileID: 220931868}
   - {fileID: 2029757950}
