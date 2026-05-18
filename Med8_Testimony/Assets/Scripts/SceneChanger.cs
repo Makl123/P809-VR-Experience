@@ -30,7 +30,7 @@ public class SceneChanger : MonoBehaviour
         SceneManager.LoadScene(nameOfScene);
     }
     
-    private void LoadTheScene(string nameOfScene)
+    public void LoadTheScene(string nameOfScene)
     {
        
         StartCoroutine(StartGameCouroutine(nameOfScene));

@@ -13566,6 +13566,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::NPC_Animation
   player: {fileID: 285040059}
   watched: 0
+  disableLookAtMode: 0
   headToRotate: {fileID: 1902436011}
   minY: -90
   maxY: 90
@@ -18177,6 +18178,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::NPC_Animation
   player: {fileID: 285040059}
   watched: 0
+  disableLookAtMode: 0
   headToRotate: {fileID: 1954979099}
   minY: -90
   maxY: 90
@@ -30953,6 +30955,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::NPC_Animation
   player: {fileID: 285040059}
   watched: 0
+  disableLookAtMode: 0
   headToRotate: {fileID: 1511572687}
   minY: -90
   maxY: 90
@@ -31848,6 +31851,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::NPC_Animation
   player: {fileID: 285040059}
   watched: 0
+  disableLookAtMode: 0
   headToRotate: {fileID: 237451074}
   minY: -90
   maxY: 90
@@ -36879,6 +36883,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::NPC_Animation
   player: {fileID: 285040059}
   watched: 0
+  disableLookAtMode: 0
   headToRotate: {fileID: 243558679}
   minY: -90
   maxY: 90
@@ -38565,6 +38570,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::NPC_Animation
   player: {fileID: 285040059}
   watched: 0
+  disableLookAtMode: 0
   headToRotate: {fileID: 92287399}
   minY: -90
   maxY: 90
@@ -38808,6 +38814,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::NPC_Animation
   player: {fileID: 285040059}
   watched: 0
+  disableLookAtMode: 0
   headToRotate: {fileID: 588453272}
   minY: -90
   maxY: 90
@@ -41036,6 +41043,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::NPC_Animation
   player: {fileID: 285040059}
   watched: 0
+  disableLookAtMode: 0
   headToRotate: {fileID: 1300477030}
   minY: -90
   maxY: 90
@@ -56108,6 +56116,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::NPC_Animation
   player: {fileID: 285040059}
   watched: 0
+  disableLookAtMode: 0
   headToRotate: {fileID: 994922936}
   minY: -90
   maxY: 90
@@ -56623,6 +56632,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::NPC_Animation
   player: {fileID: 0}
   watched: 0
+  disableLookAtMode: 0
   headToRotate: {fileID: 0}
   minY: -60
   maxY: 60
@@ -58180,6 +58190,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::NPC_Animation
   player: {fileID: 285040059}
   watched: 0
+  disableLookAtMode: 0
   headToRotate: {fileID: 338321587}
   minY: -90
   maxY: 90
@@ -59347,6 +59358,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::NPC_Animation
   player: {fileID: 285040059}
   watched: 0
+  disableLookAtMode: 0
   headToRotate: {fileID: 2121232428}
   minY: -60
   maxY: 60
@@ -61956,6 +61968,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::NPC_Animation
   player: {fileID: 285040059}
   watched: 0
+  disableLookAtMode: 0
   headToRotate: {fileID: 2069844061}
   minY: -90
   maxY: 90
@@ -70616,6 +70629,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::NPC_Animation
   player: {fileID: 285040059}
   watched: 0
+  disableLookAtMode: 0
   headToRotate: {fileID: 1496118704}
   minY: -90
   maxY: 90
@@ -79478,6 +79492,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::NPC_Animation
   player: {fileID: 285040059}
   watched: 0
+  disableLookAtMode: 0
   headToRotate: {fileID: 1430024929}
   minY: -60
   maxY: 60
@@ -80107,6 +80122,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::NPC_Animation
   player: {fileID: 285040059}
   watched: 0
+  disableLookAtMode: 0
   headToRotate: {fileID: 1794437776}
   minY: -90
   maxY: 90
@@ -91877,7 +91893,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CarSceneChanger
   _fadingScript: {fileID: 1399632656}
-  sceneName: End_Screen
+  sceneName: Maria-prison-scene
 --- !u!65 &2085151652
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -93581,6 +93597,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::NPC_Animation
   player: {fileID: 285040059}
   watched: 0
+  disableLookAtMode: 0
   headToRotate: {fileID: 438595384}
   minY: -90
   maxY: 90
