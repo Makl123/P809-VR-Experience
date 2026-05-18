@@ -11,19 +11,19 @@ public class EventTrigger : MonoBehaviour
     {
         if (other.CompareTag("Player") && Player == true)
         {
-            LSLMarkerSender.Instance.SendMarker("Player Entered");
+           
             Event = true;
         }
 
         if(other.CompareTag("AngiGuy") && AngiGuy == true)
         {
-            LSLMarkerSender.Instance.SendMarker("AngiGuy Entered");
+            LSLMarkerSender.Instance.SendMarker("Confrontation");
             Event = true;
         }
 
         if (other.CompareTag("Walker") && Walker == true)
         {
-            LSLMarkerSender.Instance.SendMarker("Walker Entered");
+            
             Event = true;
         }
     }

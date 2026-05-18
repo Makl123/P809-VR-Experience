@@ -22,11 +22,13 @@ public class MenuController : MonoBehaviour
     public void StartGame()
     {
         StartCoroutine(StartGameCouroutine());
+
     }
 
     public IEnumerator StartGameCouroutine()
     {
         yield return StartCoroutine(_fadingScript.FadeOut());
         SceneManager.LoadScene("Maria-house scene");
+        LSLMarkerSender.Instance.SendMarker("Start");
     }
 }

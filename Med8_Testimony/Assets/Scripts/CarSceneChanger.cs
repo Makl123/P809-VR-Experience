@@ -33,6 +33,7 @@ public class CarSceneChanger : MonoBehaviour
     {
         yield return StartCoroutine(_fadingScript.CutsceneSequence());
         SceneManager.LoadScene(nameOfScene);
+        LSLMarkerSender.Instance.SendMarker($"Entered {nameOfScene}");
     }
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created

@@ -1,4 +1,5 @@
 using TMPro;
+using Unity.VectorGraphics;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -65,6 +66,7 @@ public class Guard_End_Trigger : MonoBehaviour
         {
             sceneChanger.LoadTheScene("End_Screen");
             endTheGameText.SetActive(false);
+            LSLMarkerSender.Instance.SendMarker("End_Screen");
         }
     }
     

@@ -4,6 +4,7 @@ using UnityEngine.SceneManagement;
 using System.Collections;
 using TMPro;
 
+
 public class SceneChanger : MonoBehaviour
 {
     [SerializeField] private FadingScript _fadingScript;
@@ -21,6 +22,7 @@ public class SceneChanger : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             LoadTheScene(sceneName);
+            LSLMarkerSender.Instance.SendMarker($"Entered {sceneName}");
         }
         
     }
