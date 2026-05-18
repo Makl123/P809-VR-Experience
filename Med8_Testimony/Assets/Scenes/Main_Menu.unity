@@ -6539,6 +6539,52 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 493267016}
   m_Mesh: {fileID: -636475418258505028, guid: 7bc6e0f10f40e424d8b915352ab5df81, type: 3}
+--- !u!1 &498502119
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 498502121}
+  - component: {fileID: 498502120}
+  m_Layer: 0
+  m_Name: LSLMarkerSender
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &498502120
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 498502119}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dae9cc4801d6bda4abf8258207d0cb31, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::LSLMarkerSender
+  MarkerName: OpenSignals
+  hz: 1000
+--- !u!4 &498502121
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 498502119}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3.1764, y: 0.00703, z: 1.27801}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &498933071
 GameObject:
   m_ObjectHideFlags: 0
@@ -22292,3 +22338,4 @@ SceneRoots:
   - {fileID: 47135065}
   - {fileID: 1742952048}
   - {fileID: 815021344}
+  - {fileID: 498502121}
