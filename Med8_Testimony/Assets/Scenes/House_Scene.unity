@@ -326,6 +326,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: shirt
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 57594a98d87704e5f9eebdcb1b837ef6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6760,6 +6764,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: shirt (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 57594a98d87704e5f9eebdcb1b837ef6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7212,7 +7220,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SceneChanger
   _fadingScript: {fileID: 897138412}
-  sceneName: Albas_Testing_Ground
+  sceneName: Street_Scene
 --- !u!65 &836627217
 BoxCollider:
   m_ObjectHideFlags: 0

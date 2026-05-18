@@ -64,9 +64,9 @@ public class Guard_End_Trigger : MonoBehaviour
     {
         if (playerInRange)
         {
-            sceneChanger.LoadTheScene("End_Screen");
+            sceneChanger.LoadTheScene("The_End");
             endTheGameText.SetActive(false);
-            LSLMarkerSender.Instance.SendMarker("End_Screen");
+            LSLMarkerSender.Instance.SendMarker("The_End");
         }
     }
     
