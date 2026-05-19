@@ -36,6 +36,12 @@ public class SceneChanger : MonoBehaviour
     {
        
         StartCoroutine(StartGameCouroutine(nameOfScene));
+        LSLMarkerSender.Instance.SendMarker($"Entered {nameOfScene}");
+    }
+
+    public void QuitGame()
+    {
+        Application.Quit();
     }
     
     private void LoadTheCinematicScene(string nameOfScene)
